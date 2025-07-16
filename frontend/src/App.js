@@ -12,7 +12,7 @@ const App = () => {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("¡Hola! Estoy interesado en las franelas de Football Locker. ¿Podrían darme más información?");
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/573001234567?text=${message}`, '_blank');
   };
 
   return (
